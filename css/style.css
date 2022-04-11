@@ -4,9 +4,8 @@
 }
 
 .fundo{
-    background-color: rgb(131, 10, 131);
+    background-image: url(../img/fundo.jpg);
     text-align: center;
-    background-image: linear-gradient(to bottom right, rgb(161, 16, 180), rgb(75, 75, 235));
     height: 100vh;
     color: rgb(248, 248, 248);
     font-family: monospace;

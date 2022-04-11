@@ -1,11 +1,13 @@
 function insere(numero){
-    var num = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = num + numero;
+    var valor = document.getElementById('resultado').innerHTML;
+    document.getElementById('resultado').innerHTML = valor + numero;
 }
+
 
 function limpar(){
     document.getElementById('resultado').innerHTML = "";
 }
+
 
 function voltar(){
     var resultado = document.getElementById('resultado').innerHTML;
@@ -13,11 +15,12 @@ function voltar(){
 }
 
 function calcular(){
-    var resultado =  document.getElementById('resultado').innerHTML;
+    var resultado = document.getElementById('resultado').innerHTML;
     if(resultado){
         document.getElementById('resultado').innerHTML = eval(resultado);
     }
+
     else{
-        document.getElementById('resultado').innerHTML = "Nada";
+        document.getElementById('resultado').innerHTML = "Nada...";
     }
 }
